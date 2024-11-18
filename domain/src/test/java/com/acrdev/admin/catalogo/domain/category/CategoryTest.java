@@ -1,5 +1,7 @@
 package com.acrdev.admin.catalogo.domain.category;
 
+import com.acrdev.admin.catalogo.domain.exceptions.DomainException;
+import com.acrdev.admin.catalogo.domain.validation.handler.ThrowsValidationHandler;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
