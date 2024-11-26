@@ -6,10 +6,22 @@ import org.junit.jupiter.api.Test;
 public class CategoryTest {
 
     @Test
-    public void testNewCategory(){
+    public void givenAValidParam_whenCallNewCategory_thenInstantiateACategory() {
 
-        Assertions.assertNotNull(new Category());
+        final var expectedName = "Filmes";
+        final var expectedDescription = "A categoria mais assitida";
+        final var expectedIsActive = true;
 
+        final var actualCategory = Category.newCategory(expectedName, expectedDescription, expectedIsActive);
+        Assertions.assertNotNull(actualCategory);
+        Assertions.assertNotNull(actualCategory.getId());
+        Assertions.assertEquals(expectedName, actualCategory.getName());
+        Assertions.assertEquals(expectedDescription, actualCategory.getDescription());
+        Assertions.assertEquals(expectedIsActive, actualCategory.isActive());
+        //auditoria
+        Assertions.assertNotNull(actualCategory.getCreatedAt());
+        Assertions.assertNotNull(actualCategory.getUpdatedAt());
+        Assertions.assertNull(actualCategory.getDeletedAt());
     }
 
 }
