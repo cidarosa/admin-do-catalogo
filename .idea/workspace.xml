@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd25c14-2306-4136-909f-93433d518bf8" name="Changes" comment="Validações de negócio">
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/category/CategoryValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/exceptions/DomainException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/validation/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/validation/ValidationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/validation/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/validation/handler/ThrowsValidationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/AggregateRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/AggregateRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/category/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/github/cidarosa/admin/catalogo/domain/category/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/github/cidarosa/admin/catalogo/domain/category/CategoryTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9dd25c14-2306-4136-909f-93433d518bf8" name="Changes" comment="Implementação do CategoryValidator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732671541371</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implementação do CategoryValidator">
+      <created>1732715067005</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732715067005</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +296,7 @@
     <MESSAGE value="Classe DDD - ValueObject, Entity, Identifier e AggregateRoot" />
     <MESSAGE value="Tornando Category um Aggregate" />
     <MESSAGE value="Validações de negócio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validações de negócio" />
+    <MESSAGE value="Implementação do CategoryValidator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do CategoryValidator" />
   </component>
 </project>
