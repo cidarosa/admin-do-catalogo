@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd25c14-2306-4136-909f-93433d518bf8" name="Changes" comment="Implementação do CategoryValidator">
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/exceptions/NoStacktraceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/exceptions/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/exceptions/DomainException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/validation/handler/ThrowsValidationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/validation/handler/ThrowsValidationHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="9dd25c14-2306-4136-909f-93433d518bf8" name="Changes" comment="Implementação do CategoryValidator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
