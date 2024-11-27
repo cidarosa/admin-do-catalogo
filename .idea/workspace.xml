@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd25c14-2306-4136-909f-93433d518bf8" name="Changes" comment="Implementação do CategoryValidator" />
+    <list default="true" id="9dd25c14-2306-4136-909f-93433d518bf8" name="Changes" comment="Implementação do CategoryValidator">
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/exceptions/NoStacktraceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/exceptions/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/exceptions/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/validation/handler/ThrowsValidationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/github/cidarosa/admin/catalogo/domain/validation/handler/ThrowsValidationHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +106,7 @@
       <recent name="com.github.cidarosa.admin.catalogo.domain.validation" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CategoryTest">
+  <component name="RunManager" selected="Gradle.admin-do-catalogo [test]">
     <configuration name="CategoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -217,10 +222,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.admin-do-catalogo [test]" />
         <item itemvalue="Gradle.CategoryTest" />
         <item itemvalue="Gradle.CategoryTest.givenAnInvalidNullName_whenCallNewCategoryAndValidate_thenShouldReceiveError" />
         <item itemvalue="Gradle.UseCaseTest.testCreateUseCase" />
-        <item itemvalue="Gradle.admin-do-catalogo [test]" />
         <item itemvalue="Gradle.CategoryTest.givenAValidParam_whenCallNewCategory_thenInstantiateACategory" />
       </list>
     </recent_temporary>
@@ -276,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732715067005</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementação do CategoryValidator">
+      <created>1732715090189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732715090189</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
